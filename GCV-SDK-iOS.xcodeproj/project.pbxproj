@@ -12,7 +12,80 @@
 		555B401F21FD467900C1AB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555B401D21FD467900C1AB28 /* Main.storyboard */; };
 		555B402121FD467A00C1AB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555B402021FD467A00C1AB28 /* Assets.xcassets */; };
 		555B402421FD467A00C1AB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555B402221FD467A00C1AB28 /* LaunchScreen.storyboard */; };
+		555B403921FD46AE00C1AB28 /* GCV_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555B403021FD46AE00C1AB28 /* GCV_SDK.framework */; };
+		555B404021FD46AE00C1AB28 /* GCV_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B403F21FD46AE00C1AB28 /* GCV_SDKTests.swift */; };
+		555B404221FD46AE00C1AB28 /* GCV_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 555B403221FD46AE00C1AB28 /* GCV_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555B404521FD46AE00C1AB28 /* GCV_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555B403021FD46AE00C1AB28 /* GCV_SDK.framework */; };
+		555B404621FD46AE00C1AB28 /* GCV_SDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 555B403021FD46AE00C1AB28 /* GCV_SDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		555B407A21FD478600C1AB28 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405021FD478600C1AB28 /* UIImage+Extension.swift */; };
+		555B407B21FD478600C1AB28 /* GCVContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405221FD478600C1AB28 /* GCVContentType.swift */; };
+		555B407C21FD478600C1AB28 /* GCVHttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405321FD478600C1AB28 /* GCVHttpMethod.swift */; };
+		555B407D21FD478600C1AB28 /* GCVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405521FD478600C1AB28 /* GCVError.swift */; };
+		555B407E21FD478600C1AB28 /* GCVImageAnnotateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405721FD478600C1AB28 /* GCVImageAnnotateProvider.swift */; };
+		555B407F21FD478600C1AB28 /* GCVImageAnnotateDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405921FD478600C1AB28 /* GCVImageAnnotateDetection.swift */; };
+		555B408021FD478600C1AB28 /* GCVImageAnnotateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405A21FD478600C1AB28 /* GCVImageAnnotateRequest.swift */; };
+		555B408121FD478600C1AB28 /* GCVImageAnnotateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405B21FD478600C1AB28 /* GCVImageAnnotateFeature.swift */; };
+		555B408221FD478600C1AB28 /* GCVImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405C21FD478600C1AB28 /* GCVImage.swift */; };
+		555B408321FD478600C1AB28 /* GCVAnnotationVertices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B405E21FD478600C1AB28 /* GCVAnnotationVertices.swift */; };
+		555B408421FD478600C1AB28 /* GCVLocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406021FD478600C1AB28 /* GCVLocationAnnotation.swift */; };
+		555B408521FD478600C1AB28 /* GCVLatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406121FD478600C1AB28 /* GCVLatLng.swift */; };
+		555B408621FD478600C1AB28 /* GCVLandMarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406221FD478600C1AB28 /* GCVLandMarkAnnotation.swift */; };
+		555B408721FD478600C1AB28 /* GCVSafeSearchAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406421FD478600C1AB28 /* GCVSafeSearchAnnotation.swift */; };
+		555B408821FD478600C1AB28 /* GCVVertice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406521FD478600C1AB28 /* GCVVertice.swift */; };
+		555B408921FD478600C1AB28 /* GCVFaceLandMarkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406721FD478600C1AB28 /* GCVFaceLandMarkType.swift */; };
+		555B408A21FD478600C1AB28 /* GCVFaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406821FD478600C1AB28 /* GCVFaceAnnotation.swift */; };
+		555B408B21FD478600C1AB28 /* GCVFaceLandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406921FD478600C1AB28 /* GCVFaceLandMark.swift */; };
+		555B408C21FD478600C1AB28 /* GCVFaceLandMarkPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406A21FD478600C1AB28 /* GCVFaceLandMarkPosition.swift */; };
+		555B408D21FD478600C1AB28 /* GCVColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406C21FD478600C1AB28 /* GCVColor.swift */; };
+		555B408E21FD478600C1AB28 /* GCVImagePropertiesAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406D21FD478600C1AB28 /* GCVImagePropertiesAnnotation.swift */; };
+		555B408F21FD478600C1AB28 /* GCVColorProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406E21FD478600C1AB28 /* GCVColorProperties.swift */; };
+		555B409021FD478600C1AB28 /* GCVImageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B406F21FD478600C1AB28 /* GCVImageProperties.swift */; };
+		555B409121FD478600C1AB28 /* GCVLabelAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B407121FD478600C1AB28 /* GCVLabelAnnotation.swift */; };
+		555B409221FD478600C1AB28 /* GCVImageAnnotateResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B407221FD478600C1AB28 /* GCVImageAnnotateResponses.swift */; };
+		555B409321FD478600C1AB28 /* GCVLikelihood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B407321FD478600C1AB28 /* GCVLikelihood.swift */; };
+		555B409421FD478600C1AB28 /* GCVAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B407421FD478600C1AB28 /* GCVAnnotation.swift */; };
+		555B409521FD478600C1AB28 /* GCVLogoAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B407621FD478600C1AB28 /* GCVLogoAnnotation.swift */; };
+		555B409621FD478600C1AB28 /* GCVImageAnnotateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B407721FD478600C1AB28 /* GCVImageAnnotateResponse.swift */; };
+		555B409721FD478600C1AB28 /* GCVTextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B407921FD478600C1AB28 /* GCVTextAnnotation.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		555B403A21FD46AE00C1AB28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555B400E21FD467900C1AB28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555B402F21FD46AE00C1AB28;
+			remoteInfo = "GCV-SDK";
+		};
+		555B403C21FD46AE00C1AB28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555B400E21FD467900C1AB28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555B401521FD467900C1AB28;
+			remoteInfo = "GCV-SDK-iOS";
+		};
+		555B404321FD46AE00C1AB28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555B400E21FD467900C1AB28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555B402F21FD46AE00C1AB28;
+			remoteInfo = "GCV-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		555B404A21FD46AE00C1AB28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				555B404621FD46AE00C1AB28 /* GCV_SDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		555B401621FD467900C1AB28 /* GCV-SDK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCV-SDK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +95,42 @@
 		555B402021FD467A00C1AB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		555B402321FD467A00C1AB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		555B402521FD467A00C1AB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555B403021FD46AE00C1AB28 /* GCV_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCV_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		555B403221FD46AE00C1AB28 /* GCV_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCV_SDK.h; sourceTree = "<group>"; };
+		555B403321FD46AE00C1AB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555B403821FD46AE00C1AB28 /* GCV-SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCV-SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		555B403F21FD46AE00C1AB28 /* GCV_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCV_SDKTests.swift; sourceTree = "<group>"; };
+		555B404121FD46AE00C1AB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555B405021FD478600C1AB28 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		555B405221FD478600C1AB28 /* GCVContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVContentType.swift; sourceTree = "<group>"; };
+		555B405321FD478600C1AB28 /* GCVHttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVHttpMethod.swift; sourceTree = "<group>"; };
+		555B405521FD478600C1AB28 /* GCVError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVError.swift; sourceTree = "<group>"; };
+		555B405721FD478600C1AB28 /* GCVImageAnnotateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImageAnnotateProvider.swift; sourceTree = "<group>"; };
+		555B405921FD478600C1AB28 /* GCVImageAnnotateDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImageAnnotateDetection.swift; sourceTree = "<group>"; };
+		555B405A21FD478600C1AB28 /* GCVImageAnnotateRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImageAnnotateRequest.swift; sourceTree = "<group>"; };
+		555B405B21FD478600C1AB28 /* GCVImageAnnotateFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImageAnnotateFeature.swift; sourceTree = "<group>"; };
+		555B405C21FD478600C1AB28 /* GCVImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImage.swift; sourceTree = "<group>"; };
+		555B405E21FD478600C1AB28 /* GCVAnnotationVertices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVAnnotationVertices.swift; sourceTree = "<group>"; };
+		555B406021FD478600C1AB28 /* GCVLocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVLocationAnnotation.swift; sourceTree = "<group>"; };
+		555B406121FD478600C1AB28 /* GCVLatLng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVLatLng.swift; sourceTree = "<group>"; };
+		555B406221FD478600C1AB28 /* GCVLandMarkAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVLandMarkAnnotation.swift; sourceTree = "<group>"; };
+		555B406421FD478600C1AB28 /* GCVSafeSearchAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVSafeSearchAnnotation.swift; sourceTree = "<group>"; };
+		555B406521FD478600C1AB28 /* GCVVertice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVVertice.swift; sourceTree = "<group>"; };
+		555B406721FD478600C1AB28 /* GCVFaceLandMarkType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVFaceLandMarkType.swift; sourceTree = "<group>"; };
+		555B406821FD478600C1AB28 /* GCVFaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVFaceAnnotation.swift; sourceTree = "<group>"; };
+		555B406921FD478600C1AB28 /* GCVFaceLandMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVFaceLandMark.swift; sourceTree = "<group>"; };
+		555B406A21FD478600C1AB28 /* GCVFaceLandMarkPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVFaceLandMarkPosition.swift; sourceTree = "<group>"; };
+		555B406C21FD478600C1AB28 /* GCVColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVColor.swift; sourceTree = "<group>"; };
+		555B406D21FD478600C1AB28 /* GCVImagePropertiesAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImagePropertiesAnnotation.swift; sourceTree = "<group>"; };
+		555B406E21FD478600C1AB28 /* GCVColorProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVColorProperties.swift; sourceTree = "<group>"; };
+		555B406F21FD478600C1AB28 /* GCVImageProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImageProperties.swift; sourceTree = "<group>"; };
+		555B407121FD478600C1AB28 /* GCVLabelAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVLabelAnnotation.swift; sourceTree = "<group>"; };
+		555B407221FD478600C1AB28 /* GCVImageAnnotateResponses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImageAnnotateResponses.swift; sourceTree = "<group>"; };
+		555B407321FD478600C1AB28 /* GCVLikelihood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVLikelihood.swift; sourceTree = "<group>"; };
+		555B407421FD478600C1AB28 /* GCVAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVAnnotation.swift; sourceTree = "<group>"; };
+		555B407621FD478600C1AB28 /* GCVLogoAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVLogoAnnotation.swift; sourceTree = "<group>"; };
+		555B407721FD478600C1AB28 /* GCVImageAnnotateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVImageAnnotateResponse.swift; sourceTree = "<group>"; };
+		555B407921FD478600C1AB28 /* GCVTextAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCVTextAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +138,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555B404521FD46AE00C1AB28 /* GCV_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555B402D21FD46AE00C1AB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555B403521FD46AE00C1AB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555B403921FD46AE00C1AB28 /* GCV_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				555B401821FD467900C1AB28 /* GCV-SDK-iOS */,
+				555B403121FD46AE00C1AB28 /* GCV-SDK */,
+				555B403E21FD46AE00C1AB28 /* GCV-SDKTests */,
 				555B401721FD467900C1AB28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				555B401621FD467900C1AB28 /* GCV-SDK-iOS.app */,
+				555B403021FD46AE00C1AB28 /* GCV_SDK.framework */,
+				555B403821FD46AE00C1AB28 /* GCV-SDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +193,178 @@
 			path = "GCV-SDK-iOS";
 			sourceTree = "<group>";
 		};
+		555B403121FD46AE00C1AB28 /* GCV-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				555B403221FD46AE00C1AB28 /* GCV_SDK.h */,
+				555B404E21FD478600C1AB28 /* Util */,
+				555B405621FD478600C1AB28 /* ImageAnnotate */,
+				555B403321FD46AE00C1AB28 /* Info.plist */,
+			);
+			path = "GCV-SDK";
+			sourceTree = "<group>";
+		};
+		555B403E21FD46AE00C1AB28 /* GCV-SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				555B403F21FD46AE00C1AB28 /* GCV_SDKTests.swift */,
+				555B404121FD46AE00C1AB28 /* Info.plist */,
+			);
+			path = "GCV-SDKTests";
+			sourceTree = "<group>";
+		};
+		555B404E21FD478600C1AB28 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				555B404F21FD478600C1AB28 /* Extension */,
+				555B405121FD478600C1AB28 /* Enum */,
+				555B405421FD478600C1AB28 /* Error */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		555B404F21FD478600C1AB28 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				555B405021FD478600C1AB28 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		555B405121FD478600C1AB28 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				555B405221FD478600C1AB28 /* GCVContentType.swift */,
+				555B405321FD478600C1AB28 /* GCVHttpMethod.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		555B405421FD478600C1AB28 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				555B405521FD478600C1AB28 /* GCVError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		555B405621FD478600C1AB28 /* ImageAnnotate */ = {
+			isa = PBXGroup;
+			children = (
+				555B405721FD478600C1AB28 /* GCVImageAnnotateProvider.swift */,
+				555B405821FD478600C1AB28 /* Requests */,
+				555B405D21FD478600C1AB28 /* Results */,
+			);
+			path = ImageAnnotate;
+			sourceTree = "<group>";
+		};
+		555B405821FD478600C1AB28 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				555B405921FD478600C1AB28 /* GCVImageAnnotateDetection.swift */,
+				555B405A21FD478600C1AB28 /* GCVImageAnnotateRequest.swift */,
+				555B405B21FD478600C1AB28 /* GCVImageAnnotateFeature.swift */,
+				555B405C21FD478600C1AB28 /* GCVImage.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		555B405D21FD478600C1AB28 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				555B405E21FD478600C1AB28 /* GCVAnnotationVertices.swift */,
+				555B405F21FD478600C1AB28 /* LandMark */,
+				555B406321FD478600C1AB28 /* SafeSearch */,
+				555B406521FD478600C1AB28 /* GCVVertice.swift */,
+				555B406621FD478600C1AB28 /* Face */,
+				555B406B21FD478600C1AB28 /* ImageProperties */,
+				555B407021FD478600C1AB28 /* Label */,
+				555B407221FD478600C1AB28 /* GCVImageAnnotateResponses.swift */,
+				555B407321FD478600C1AB28 /* GCVLikelihood.swift */,
+				555B407421FD478600C1AB28 /* GCVAnnotation.swift */,
+				555B407521FD478600C1AB28 /* Logo */,
+				555B407721FD478600C1AB28 /* GCVImageAnnotateResponse.swift */,
+				555B407821FD478600C1AB28 /* Text */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		555B405F21FD478600C1AB28 /* LandMark */ = {
+			isa = PBXGroup;
+			children = (
+				555B406021FD478600C1AB28 /* GCVLocationAnnotation.swift */,
+				555B406121FD478600C1AB28 /* GCVLatLng.swift */,
+				555B406221FD478600C1AB28 /* GCVLandMarkAnnotation.swift */,
+			);
+			path = LandMark;
+			sourceTree = "<group>";
+		};
+		555B406321FD478600C1AB28 /* SafeSearch */ = {
+			isa = PBXGroup;
+			children = (
+				555B406421FD478600C1AB28 /* GCVSafeSearchAnnotation.swift */,
+			);
+			path = SafeSearch;
+			sourceTree = "<group>";
+		};
+		555B406621FD478600C1AB28 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				555B406721FD478600C1AB28 /* GCVFaceLandMarkType.swift */,
+				555B406821FD478600C1AB28 /* GCVFaceAnnotation.swift */,
+				555B406921FD478600C1AB28 /* GCVFaceLandMark.swift */,
+				555B406A21FD478600C1AB28 /* GCVFaceLandMarkPosition.swift */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		555B406B21FD478600C1AB28 /* ImageProperties */ = {
+			isa = PBXGroup;
+			children = (
+				555B406C21FD478600C1AB28 /* GCVColor.swift */,
+				555B406D21FD478600C1AB28 /* GCVImagePropertiesAnnotation.swift */,
+				555B406E21FD478600C1AB28 /* GCVColorProperties.swift */,
+				555B406F21FD478600C1AB28 /* GCVImageProperties.swift */,
+			);
+			path = ImageProperties;
+			sourceTree = "<group>";
+		};
+		555B407021FD478600C1AB28 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				555B407121FD478600C1AB28 /* GCVLabelAnnotation.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		555B407521FD478600C1AB28 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				555B407621FD478600C1AB28 /* GCVLogoAnnotation.swift */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		555B407821FD478600C1AB28 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				555B407921FD478600C1AB28 /* GCVTextAnnotation.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		555B402B21FD46AE00C1AB28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555B404221FD46AE00C1AB28 /* GCV_SDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		555B401521FD467900C1AB28 /* GCV-SDK-iOS */ = {
@@ -74,15 +374,54 @@
 				555B401221FD467900C1AB28 /* Sources */,
 				555B401321FD467900C1AB28 /* Frameworks */,
 				555B401421FD467900C1AB28 /* Resources */,
+				555B404A21FD46AE00C1AB28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				555B404421FD46AE00C1AB28 /* PBXTargetDependency */,
 			);
 			name = "GCV-SDK-iOS";
 			productName = "GCV-SDK-iOS";
 			productReference = 555B401621FD467900C1AB28 /* GCV-SDK-iOS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		555B402F21FD46AE00C1AB28 /* GCV-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555B404721FD46AE00C1AB28 /* Build configuration list for PBXNativeTarget "GCV-SDK" */;
+			buildPhases = (
+				555B402B21FD46AE00C1AB28 /* Headers */,
+				555B402C21FD46AE00C1AB28 /* Sources */,
+				555B402D21FD46AE00C1AB28 /* Frameworks */,
+				555B402E21FD46AE00C1AB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GCV-SDK";
+			productName = "GCV-SDK";
+			productReference = 555B403021FD46AE00C1AB28 /* GCV_SDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		555B403721FD46AE00C1AB28 /* GCV-SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555B404B21FD46AE00C1AB28 /* Build configuration list for PBXNativeTarget "GCV-SDKTests" */;
+			buildPhases = (
+				555B403421FD46AE00C1AB28 /* Sources */,
+				555B403521FD46AE00C1AB28 /* Frameworks */,
+				555B403621FD46AE00C1AB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555B403B21FD46AE00C1AB28 /* PBXTargetDependency */,
+				555B403D21FD46AE00C1AB28 /* PBXTargetDependency */,
+			);
+			name = "GCV-SDKTests";
+			productName = "GCV-SDKTests";
+			productReference = 555B403821FD46AE00C1AB28 /* GCV-SDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +435,13 @@
 				TargetAttributes = {
 					555B401521FD467900C1AB28 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					555B402F21FD46AE00C1AB28 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					555B403721FD46AE00C1AB28 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 555B401521FD467900C1AB28;
 					};
 				};
 			};
@@ -113,6 +459,8 @@
 			projectRoot = "";
 			targets = (
 				555B401521FD467900C1AB28 /* GCV-SDK-iOS */,
+				555B402F21FD46AE00C1AB28 /* GCV-SDK */,
+				555B403721FD46AE00C1AB28 /* GCV-SDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +476,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555B402E21FD46AE00C1AB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555B403621FD46AE00C1AB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +502,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		555B402C21FD46AE00C1AB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555B408C21FD478600C1AB28 /* GCVFaceLandMarkPosition.swift in Sources */,
+				555B408521FD478600C1AB28 /* GCVLatLng.swift in Sources */,
+				555B409721FD478600C1AB28 /* GCVTextAnnotation.swift in Sources */,
+				555B409621FD478600C1AB28 /* GCVImageAnnotateResponse.swift in Sources */,
+				555B408321FD478600C1AB28 /* GCVAnnotationVertices.swift in Sources */,
+				555B407F21FD478600C1AB28 /* GCVImageAnnotateDetection.swift in Sources */,
+				555B408121FD478600C1AB28 /* GCVImageAnnotateFeature.swift in Sources */,
+				555B408F21FD478600C1AB28 /* GCVColorProperties.swift in Sources */,
+				555B408721FD478600C1AB28 /* GCVSafeSearchAnnotation.swift in Sources */,
+				555B407E21FD478600C1AB28 /* GCVImageAnnotateProvider.swift in Sources */,
+				555B409321FD478600C1AB28 /* GCVLikelihood.swift in Sources */,
+				555B408621FD478600C1AB28 /* GCVLandMarkAnnotation.swift in Sources */,
+				555B409221FD478600C1AB28 /* GCVImageAnnotateResponses.swift in Sources */,
+				555B409021FD478600C1AB28 /* GCVImageProperties.swift in Sources */,
+				555B408B21FD478600C1AB28 /* GCVFaceLandMark.swift in Sources */,
+				555B408821FD478600C1AB28 /* GCVVertice.swift in Sources */,
+				555B407C21FD478600C1AB28 /* GCVHttpMethod.swift in Sources */,
+				555B407B21FD478600C1AB28 /* GCVContentType.swift in Sources */,
+				555B409121FD478600C1AB28 /* GCVLabelAnnotation.swift in Sources */,
+				555B408D21FD478600C1AB28 /* GCVColor.swift in Sources */,
+				555B408421FD478600C1AB28 /* GCVLocationAnnotation.swift in Sources */,
+				555B409421FD478600C1AB28 /* GCVAnnotation.swift in Sources */,
+				555B408221FD478600C1AB28 /* GCVImage.swift in Sources */,
+				555B407A21FD478600C1AB28 /* UIImage+Extension.swift in Sources */,
+				555B408E21FD478600C1AB28 /* GCVImagePropertiesAnnotation.swift in Sources */,
+				555B408021FD478600C1AB28 /* GCVImageAnnotateRequest.swift in Sources */,
+				555B407D21FD478600C1AB28 /* GCVError.swift in Sources */,
+				555B408A21FD478600C1AB28 /* GCVFaceAnnotation.swift in Sources */,
+				555B409521FD478600C1AB28 /* GCVLogoAnnotation.swift in Sources */,
+				555B408921FD478600C1AB28 /* GCVFaceLandMarkType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555B403421FD46AE00C1AB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555B404021FD46AE00C1AB28 /* GCV_SDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		555B403B21FD46AE00C1AB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555B402F21FD46AE00C1AB28 /* GCV-SDK */;
+			targetProxy = 555B403A21FD46AE00C1AB28 /* PBXContainerItemProxy */;
+		};
+		555B403D21FD46AE00C1AB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555B401521FD467900C1AB28 /* GCV-SDK-iOS */;
+			targetProxy = 555B403C21FD46AE00C1AB28 /* PBXContainerItemProxy */;
+		};
+		555B404421FD46AE00C1AB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555B402F21FD46AE00C1AB28 /* GCV-SDK */;
+			targetProxy = 555B404321FD46AE00C1AB28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		555B401D21FD467900C1AB28 /* Main.storyboard */ = {
@@ -281,6 +706,7 @@
 		555B402921FD467A00C1AB28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3BTZN69U72;
@@ -299,6 +725,7 @@
 		555B402A21FD467A00C1AB28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3BTZN69U72;
@@ -311,6 +738,102 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		555B404821FD46AE00C1AB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "GCV-SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.falcon-tech.GCV-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		555B404921FD46AE00C1AB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "GCV-SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.falcon-tech.GCV-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		555B404C21FD46AE00C1AB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = "GCV-SDKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.falcon-tech.GCV-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCV-SDK-iOS.app/GCV-SDK-iOS";
+			};
+			name = Debug;
+		};
+		555B404D21FD46AE00C1AB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BTZN69U72;
+				INFOPLIST_FILE = "GCV-SDKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.falcon-tech.GCV-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCV-SDK-iOS.app/GCV-SDK-iOS";
 			};
 			name = Release;
 		};
@@ -331,6 +854,24 @@
 			buildConfigurations = (
 				555B402921FD467A00C1AB28 /* Debug */,
 				555B402A21FD467A00C1AB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555B404721FD46AE00C1AB28 /* Build configuration list for PBXNativeTarget "GCV-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555B404821FD46AE00C1AB28 /* Debug */,
+				555B404921FD46AE00C1AB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555B404B21FD46AE00C1AB28 /* Build configuration list for PBXNativeTarget "GCV-SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555B404C21FD46AE00C1AB28 /* Debug */,
+				555B404D21FD46AE00C1AB28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
