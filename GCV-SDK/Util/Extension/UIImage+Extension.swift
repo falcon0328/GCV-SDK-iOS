@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     
     /// 画像をリサイズする
     ///
     /// - Parameter imageSize: リサイズしたいサイズ
     /// - Returns: リサイズ済みの画像
-    func resizeImage(_ imageSize: CGSize) -> Data {
+    public func resizeImage(_ imageSize: CGSize) -> Data {
         UIGraphicsBeginImageContext(imageSize)
         self.draw(in: CGRect(x: 0, y: 0, width: imageSize.width, height: imageSize.height))
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
@@ -34,7 +34,7 @@ extension UIImage {
     ///   - resizeWidth: リサイズ後の幅
     ///   - resizeHeight: リサイズ後の高さ
     /// - Returns: エンコード後の画像
-    func base64EncodeImage(fileSizeLimit: Int?, resizeSize: CGSize?) -> String {
+    public func base64EncodeImage(fileSizeLimit: Int?, resizeSize: CGSize?) -> String {
         guard var imageData = self.pngData() else {
             return ""
         }
