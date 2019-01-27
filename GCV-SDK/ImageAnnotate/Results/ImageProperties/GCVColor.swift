@@ -11,11 +11,11 @@ import Foundation
 /// RGB値
 public struct GCVColor: Decodable {
     /// 赤色
-    var red: Int
+    public var red: Int
     /// 緑色
-    var green: Int
+    public var green: Int
     /// 青色
-    var blue: Int
+    public var blue: Int
     
     public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
