@@ -11,7 +11,7 @@ import Foundation
 /// 顔の各パーツの情報
 public struct GCVFaceLandMark: Decodable {
     /// 顔のパーツの種類
-    let type: GCVFaceLandMarkType
+    public let type: GCVFaceLandMarkType
     /// 顔のパーツの位置情報
-    let position: GCVFaceLandMarkPosition
+    public let position: GCVFaceLandMarkPosition
 }

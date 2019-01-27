@@ -272,18 +272,18 @@
 		555B405D21FD478600C1AB28 /* Results */ = {
 			isa = PBXGroup;
 			children = (
+				555B407221FD478600C1AB28 /* GCVImageAnnotateResponses.swift */,
+				555B407721FD478600C1AB28 /* GCVImageAnnotateResponse.swift */,
+				555B407421FD478600C1AB28 /* GCVAnnotation.swift */,
 				555B405E21FD478600C1AB28 /* GCVAnnotationVertices.swift */,
+				555B406521FD478600C1AB28 /* GCVVertice.swift */,
+				555B407321FD478600C1AB28 /* GCVLikelihood.swift */,
 				555B405F21FD478600C1AB28 /* LandMark */,
 				555B406321FD478600C1AB28 /* SafeSearch */,
-				555B406521FD478600C1AB28 /* GCVVertice.swift */,
 				555B406621FD478600C1AB28 /* Face */,
 				555B406B21FD478600C1AB28 /* ImageProperties */,
 				555B407021FD478600C1AB28 /* Label */,
-				555B407221FD478600C1AB28 /* GCVImageAnnotateResponses.swift */,
-				555B407321FD478600C1AB28 /* GCVLikelihood.swift */,
-				555B407421FD478600C1AB28 /* GCVAnnotation.swift */,
 				555B407521FD478600C1AB28 /* Logo */,
-				555B407721FD478600C1AB28 /* GCVImageAnnotateResponse.swift */,
 				555B407821FD478600C1AB28 /* Text */,
 			);
 			path = Results;
@@ -292,9 +292,9 @@
 		555B405F21FD478600C1AB28 /* LandMark */ = {
 			isa = PBXGroup;
 			children = (
+				555B406221FD478600C1AB28 /* GCVLandMarkAnnotation.swift */,
 				555B406021FD478600C1AB28 /* GCVLocationAnnotation.swift */,
 				555B406121FD478600C1AB28 /* GCVLatLng.swift */,
-				555B406221FD478600C1AB28 /* GCVLandMarkAnnotation.swift */,
 			);
 			path = LandMark;
 			sourceTree = "<group>";
@@ -310,9 +310,9 @@
 		555B406621FD478600C1AB28 /* Face */ = {
 			isa = PBXGroup;
 			children = (
-				555B406721FD478600C1AB28 /* GCVFaceLandMarkType.swift */,
 				555B406821FD478600C1AB28 /* GCVFaceAnnotation.swift */,
 				555B406921FD478600C1AB28 /* GCVFaceLandMark.swift */,
+				555B406721FD478600C1AB28 /* GCVFaceLandMarkType.swift */,
 				555B406A21FD478600C1AB28 /* GCVFaceLandMarkPosition.swift */,
 			);
 			path = Face;
@@ -321,10 +321,10 @@
 		555B406B21FD478600C1AB28 /* ImageProperties */ = {
 			isa = PBXGroup;
 			children = (
-				555B406C21FD478600C1AB28 /* GCVColor.swift */,
 				555B406D21FD478600C1AB28 /* GCVImagePropertiesAnnotation.swift */,
 				555B406E21FD478600C1AB28 /* GCVColorProperties.swift */,
 				555B406F21FD478600C1AB28 /* GCVImageProperties.swift */,
+				555B406C21FD478600C1AB28 /* GCVColor.swift */,
 			);
 			path = ImageProperties;
 			sourceTree = "<group>";

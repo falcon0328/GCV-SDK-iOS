@@ -12,7 +12,7 @@ import UIKit
 /// 画像の色プロパティ
 public struct GCVImageProperties: Decodable {
     /// RGB値
-    private let gcvColor: GCVColor
+    public let gcvColor: GCVColor
     /// RGB値をもとに生成したUIColor
     public var color: UIColor {
         get {

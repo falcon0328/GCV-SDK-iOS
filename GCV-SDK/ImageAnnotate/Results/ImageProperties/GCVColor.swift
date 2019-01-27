@@ -9,7 +9,7 @@
 import Foundation
 
 /// RGB値
-struct GCVColor: Decodable {
+public struct GCVColor: Decodable {
     /// 赤色
     var red: Int
     /// 緑色
